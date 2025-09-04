@@ -1,0 +1,52 @@
+/*div::before {
+    content: " Frontend Simplified"
+}*/
+
+/*div::after {
+    content: " Frontend Simplified"
+}*/
+
+div {
+    transition: background-color 300ms;
+}
+
+div:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    /* animation: [name of animation] [duration] [# of times];*/
+    animation: float 2s infinite alternate-reverse;
+    /*Transform property for @keyframes*/
+                        /*x, y*/
+    /*transform: translate(10px, 0);*/
+    /*Move element in one direction along Y axis*/
+    /*transform: translateY(10px);*/
+    transition: all 300ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*How to animate elements*/
+/*@keyframes [name you create for animation] {values}*/
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.nav__link {
+    color:black;
+}
+
+.nav__link--active {
+    color: purple;
+    font-weight: bold;
+}

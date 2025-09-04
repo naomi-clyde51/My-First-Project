@@ -1,0 +1,33 @@
+.red {
+    color:red;
+}
+
+p.blue {
+    color: blue;
+}
+
+blue {
+    color: blue;
+}
+
+p {
+    color: black /*!important*/;
+}
+
+#title {
+    font-weight: bold;
+    color: purple;
+}
+
+/*#title {
+    color: black;
+}*/
+
+section {
+    height: 80vh;
+    border: 1px solid black;
+}
+
+#title.heading.red {
+    color: blue;
+}

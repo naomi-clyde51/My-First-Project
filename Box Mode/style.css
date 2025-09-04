@@ -1,0 +1,10 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+    /*box-sizing: content-box; /*Your content = width and height*/
+    box-sizing: border-box;
+}
